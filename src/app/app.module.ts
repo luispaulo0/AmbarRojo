@@ -7,6 +7,7 @@ import { HomeComponent } from './pages/home/home.component';
 import {Routes, RouterModule} from "@angular/router";
 import { CardsComponent } from './components/cards/cards.component';
 import { CardNewsComponent } from './components/card-news/card-news.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 const routes: Routes = [
   {
@@ -23,7 +24,8 @@ const routes: Routes = [
     HeaderComponent,
     HomeComponent,
     CardsComponent,
-    CardNewsComponent
+    CardNewsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
