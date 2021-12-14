@@ -1,0 +1,47 @@
+.circle{
+  margin-top: 20px;
+  width: 186px;
+  height: 182px;
+  border-radius: 50%;
+  background: #FC003F;
+  align-items: center;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.6em;
+  margin-right: 5px;
+
+
+}
+
+.container-alig{
+  align-self: center;
+}
+.icons{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  display: block;
+  width: 87px;
+  height: 88px;
+}
+.card{
+  width: 391px;
+  height: 498px;
+  border-radius: 30px;
+}
+.text-center{
+  text-align: center;
+}
+.button{
+  margin: -20px -50px;
+  position:relative;
+  top:20%;
+  left:45%;
+  border-radius: 30px;
+  border-color: #FC003F;
+  color: white;
+  background: #FC003F;
+  width: 132px;
+  height: 38px;
+}
+

@@ -1,0 +1,17 @@
+﻿.CardNews{
+  width: 260px;
+  height: 368px;
+  border-radius: 30px;
+}
+.img-size{
+  width: 182px;
+  height: 111px;
+  border-radius: 14px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  display: block;
+}
+.text-center{
+  text-align: center;
+}

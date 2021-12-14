@@ -1,0 +1,42 @@
+﻿#ContainerBackground{
+  background-color: #FB003F;
+}
+.letrasColor{
+  color: white;
+}
+#Logo{
+  position: relative;
+  right: 200px;
+  width: 350px;
+  height: 233px;
+}
+.Ambar{
+  display: inline-block;
+  position: relative;
+  right: 150px;
+}
+.Studios{
+  font-size: 48px;
+}
+#titleLetra{
+  position: relative;
+  right: 150px;
+  font-size: 55px;
+}
+#bermuda{
+  position: relative;
+  right: 250px;
+  width: 788px;
+  height: 566px;
+
+}
+#grupo{
+
+  width: 498px;
+  height: 446px;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+
+}
+
