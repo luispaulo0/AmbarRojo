@@ -6,7 +6,7 @@
 }
 #Logo{
   position: relative;
-  right: 200px;
+  right: 150px;
   width: 350px;
   height: 233px;
 }
@@ -20,12 +20,12 @@
 }
 #titleLetra{
   position: relative;
-  right: 150px;
+  right: 50px;
   font-size: 55px;
 }
 #bermuda{
   position: relative;
-  right: 250px;
+  right: 150px;
   width: 788px;
   height: 566px;
 
@@ -37,6 +37,10 @@
   position: absolute;
   right: 0px;
   bottom: 0px;
+  top:685px ;
+}
 
+.letra-a{
+  text-decoration: none;
 }
 

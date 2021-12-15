@@ -1,0 +1,47 @@
+.recuadro1{
+  background-color: #E3E3E3;
+}
+.circleMail{
+  margin-top: 20px;
+  width: 80px;
+  height: 75px;
+  border-radius: 50%;
+  background: #FC003F;
+  align-items: center;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.6em;
+  margin-left: 150px;
+}
+.icon{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  display: block;
+  width: 37px;
+  height: 38px;
+}
+.recuadro2{
+  background-color: #900024;
+  color: white;
+
+}
+.iconTweet{
+  width: 20px;
+  height: 20px;
+}
+.p{
+  display: inline-block;
+}
+.a-color{
+  color: white;
+  text-decoration: none;
+}
+.Recuadro3{
+  background-color: #540115;
+}
+.p-color{
+  color: #C80020;
+
+  margin-left: 200px;
+}

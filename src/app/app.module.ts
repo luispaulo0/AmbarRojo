@@ -8,12 +8,16 @@ import {Routes, RouterModule} from "@angular/router";
 import { CardsComponent } from './components/cards/cards.component';
 import { CardNewsComponent } from './components/card-news/card-news.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { NosotrosComponent } from './pages/nosotros/nosotros.component';
 
 const routes: Routes = [
   {
-    path:'',
-    component: HomeComponent
+    path:'', component: HomeComponent, pathMatch: 'full'
   },
+  {
+    path:'Nosotros', component: NosotrosComponent
+  },
+
 
 ];
 
@@ -25,7 +29,8 @@ const routes: Routes = [
     HomeComponent,
     CardsComponent,
     CardNewsComponent,
-    FooterComponent
+    FooterComponent,
+    NosotrosComponent
   ],
   imports: [
     BrowserModule,
