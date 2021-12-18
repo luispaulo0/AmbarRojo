@@ -1,0 +1,46 @@
+.CardPortafolios1{
+  width: 281px;
+  height: 196px;
+  border-radius: 22px;
+  margin-left: 150px;
+
+}
+.CardPortafolios2{
+  width: 281px;
+  height: 196px;
+  border-radius: 22px;
+  margin-left: 70px;
+}
+.CardPortafolios3{
+  width: 281px;
+  height: 196px;
+  border-radius: 22px;
+  margin-left: -10px;
+}
+.CardPortafolios4{
+  width: 281px;
+  height: 196px;
+  border-radius: 22px;
+  margin-left: -90px;
+}
+.img-sizeP{
+  width: 241px;
+  height: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+
+  display: block;
+}
+.text-centerP{
+  text-align: center;
+}
+.h5{
+  margin-left: 100px;
+}
+.background-color{
+    background-color: #FF3E6F;
+}
+.text-col{
+  color: white;
+}
