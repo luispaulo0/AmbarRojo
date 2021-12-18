@@ -7,7 +7,7 @@
           <img src="assets/img/Logo.png" id="Logo">
           <h1 class="letrasColor Ambar fw-bold">AMBAR ROJO <br/><h1 class="Studios fw-light">S  T  U  D  I  O  S</h1></h1>
           <br/>
-          <h1 class="letrasColor fw-bold" id="titleLetra">Crear y desarrollar experiencias es la meta</h1>
+          <h1 class="letrasColor fw-bold" id="titleLetra">{{ tittle }}</h1>
         </div>
         <div class="col-lg-1">
           <a class="letra-a" routerLink="/">
@@ -15,10 +15,9 @@
               Inicio
             </h5>
           </a>
-
         </div>
         <div class="col-lg-1">
-          <a class="letra-a" routerLink="Nosotros">
+          <a class="letra-a" routerLink="/Nosotros">
             <h5 class="letrasColor">
               Nosotros
             </h5>
@@ -30,14 +29,18 @@
           </h5>
         </div>
         <div class="col-lg-1">
+          <a class="letra-a" routerLink="/Portafolios">
           <h5 class="letrasColor">
             Portafolios
           </h5>
+          </a>
         </div>
         <div class="col-lg-1">
+          <a class="letra-a" routerLink="/Noticias">
           <h5 class="letrasColor">
             Noticias
           </h5>
+          </a>
         </div>
         <div class="col-lg-1">
           <h5 class="letrasColor">
@@ -57,10 +60,13 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8">
-            <img id="bermuda" src="assets/img/bermuda-web-design.png">
+            <img id="bermuda" src="{{ img1 }}"onerror="this.style.display = 'none'">
+            <img id="pablita1" src="{{ img3 }}"onerror="this.style.display = 'none'">
           </div>
           <div class="col-lg-4 outer">
-            <img id="grupo" src="assets/img/grupo.png">
+            <img id="cherry" src="{{ img5 }}" onerror="this.style.display = 'none'">
+            <img id="grupo" src="{{ img2 }}" onerror="this.style.display = 'none'">
+            <img id="pablita2" src="{{ img4 }}" onerror="this.style.display = 'none'">
           </div>
         </div>
       </div>
@@ -70,3 +76,4 @@
   </div>
 
 </div>
+
