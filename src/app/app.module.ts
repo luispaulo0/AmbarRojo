@@ -9,6 +9,7 @@ import { CardsComponent } from './components/cards/cards.component';
 import { CardNewsComponent } from './components/card-news/card-news.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { NosotrosComponent } from './pages/nosotros/nosotros.component';
+import { ServiciosComponent } from './pages/servicios/servicios.component';
 import { NoticiasComponent } from './pages/noticias/noticias.component';
 import { PortafoliosComponent } from './pages/portafolios/portafolios.component';
 import { CardsPortafoliosComponent } from './components/cards-portafolios/cards-portafolios.component';
@@ -26,6 +27,9 @@ const routes: Routes = [
   {
     path:'Portafolios', component: PortafoliosComponent
   },
+  {
+    path:'Servicios', component: ServiciosComponent
+  }
 
 
 ];
@@ -40,6 +44,7 @@ const routes: Routes = [
     CardNewsComponent,
     FooterComponent,
     NosotrosComponent,
+    ServiciosComponent,
     NoticiasComponent,
     PortafoliosComponent,
     CardsPortafoliosComponent

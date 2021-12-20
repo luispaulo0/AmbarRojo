@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NosotrosComponent implements OnInit {
 
+  tittle='Sobre Nosotros';
+  imagen='assets/img/marginalia-763.png';
+
   constructor() { }
 
   ngOnInit(): void {
