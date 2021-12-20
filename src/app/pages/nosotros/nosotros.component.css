@@ -1,6 +1,16 @@
 .recuadro1{
     background-color: #FF3E6F;
   }
+.colorText{
+  color: white;
+}
+.h1left{
+  margin-left: 100px;
+}
+.img1{
+  margin-top: -50px;
+  margin-left: 50px;
+}
 
   h5{
     font-size: 3.25rem;
@@ -12,6 +22,6 @@
   }
 
   p{
-    font-size: 1.9rem;
+    font-size: 1.4rem;
     margin-bottom: 8rem;
   }

@@ -1,5 +1,6 @@
 ﻿#ContainerBackground{
   background-color: #FB003F;
+
 }
 .letrasColor{
   color: white;
@@ -76,5 +77,16 @@
   margin-right: 0px;
   margin-top: -50px;
 }
-
+#serv{
+  width: 1012px;
+  height: 812px;
+  margin-left: 400px;
+  margin-top: -300px;
+}
+#nos{
+  width: 820px;
+  height: 615px;
+  margin-left: 600px;
+  margin-top: -100px;
+}
 

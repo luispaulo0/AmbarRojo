@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class ServiciosComponent implements OnInit {
 
   tittle='Servicios';
-
+  serviciosimg='assets/img/urban-931.png';
 
   constructor() { }
 

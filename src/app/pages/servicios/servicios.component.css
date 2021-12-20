@@ -1,0 +1,44 @@
+.recuadro1{
+  background-color: #FF3E6F;
+}
+
+h5{
+  font-size: 3.2rem;
+}
+
+h1{
+
+  font-size: 3.2rem;
+}
+
+p{
+  font-size: 1.4rem;
+  margin-bottom: 8rem;
+}
+
+.rectangulo1{
+  background-color: #FF3E6F;
+}
+
+.rectangulo3{
+  background-color: #FB003F;
+}
+.cText{
+  color: white;
+}
+
+.Apps{
+  width: 260px;
+  height: 294px;
+}
+.Games{
+  width: 360px;
+  height: 274px;
+  margin-right: 20px;
+  margin-top: 40px;
+}
+.ambar{
+  width: 360px;
+  height: 274px;
+  margin-top: 40px;
+}

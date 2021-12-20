@@ -14,6 +14,7 @@ import { NoticiasComponent } from './pages/noticias/noticias.component';
 import { PortafoliosComponent } from './pages/portafolios/portafolios.component';
 import { CardsPortafoliosComponent } from './components/cards-portafolios/cards-portafolios.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
+import { CardServComponent } from './components/card-serv/card-serv.component';
 
 const routes: Routes = [
   {
@@ -53,6 +54,7 @@ const routes: Routes = [
     PortafoliosComponent,
     CardsPortafoliosComponent,
     ContactoComponent,
+    CardServComponent,
   ],
   imports: [
     BrowserModule,
