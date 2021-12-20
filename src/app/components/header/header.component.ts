@@ -14,6 +14,8 @@ export class HeaderComponent implements OnInit {
   @Input() img3: String ='';
   @Input() img4: String ='';
   @Input() img5: String ='';
+  @Input() img6: String ='';
+  @Input() img7: String ='';
 
 
 
