@@ -24,19 +24,18 @@
   font-size: 55px;
 }
 #bermuda{
-  position: relative;
-  right: 150px;
+  margin-left: -150px;
+  margin-top: -200px;
   width: 788px;
   height: 566px;
 
 }
 #grupo{
-
+  margin-top: -60px;
   width: 498px;
   height: 446px;
-  position: relative;
-  right: -60px;
-  bottom: -120px;
+  margin-left: 60px;
+
 
 }
 #pablita1{
@@ -63,4 +62,19 @@
   margin-top: -168px;
 
 }
+
+#pablitaC{
+  width: 766px;
+  height: 343px;
+  margin-left: -200px;
+  margin-top: 60px;
+
+}
+#taxi{
+  width: 513px;
+  height: 513px;
+  margin-right: 0px;
+  margin-top: -50px;
+}
+
 

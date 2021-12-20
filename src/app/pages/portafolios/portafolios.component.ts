@@ -10,6 +10,7 @@ export class PortafoliosComponent implements OnInit {
   tittle='Portafolios';
   cherry='assets/img/cherry-689.png';
 
+
   constructor() { }
 
   ngOnInit(): void {

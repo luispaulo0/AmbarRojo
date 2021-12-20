@@ -13,6 +13,7 @@ import { ServiciosComponent } from './pages/servicios/servicios.component';
 import { NoticiasComponent } from './pages/noticias/noticias.component';
 import { PortafoliosComponent } from './pages/portafolios/portafolios.component';
 import { CardsPortafoliosComponent } from './components/cards-portafolios/cards-portafolios.component';
+import { ContactoComponent } from './pages/contacto/contacto.component';
 
 const routes: Routes = [
   {
@@ -29,7 +30,10 @@ const routes: Routes = [
   },
   {
     path:'Servicios', component: ServiciosComponent
-  }
+  },
+  {
+    path:'Contacto', component: ContactoComponent
+  },
 
 
 ];
@@ -47,7 +51,8 @@ const routes: Routes = [
     ServiciosComponent,
     NoticiasComponent,
     PortafoliosComponent,
-    CardsPortafoliosComponent
+    CardsPortafoliosComponent,
+    ContactoComponent,
   ],
   imports: [
     BrowserModule,
