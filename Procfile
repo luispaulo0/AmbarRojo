@@ -1,1 +1,1 @@
-web:node karma.conf.js
+web:node server.js
