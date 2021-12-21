@@ -1,1 +1,1 @@
-web:node src/karma.conf.js
+web:node src/index.html
