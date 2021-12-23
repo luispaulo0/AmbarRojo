@@ -15,3 +15,35 @@
 .text-center{
   text-align: center;
 }
+@media screen and (max-width: 1200px) {
+  .CardNews{
+    width: 220px;
+    height: 368px;
+    border-radius: 30px;
+  }
+  .img-size{
+    width: 182px;
+    height: 111px;
+    border-radius: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    display: block;
+  }
+  .text-center{
+    text-align: center;
+  }
+}
+@media screen and (max-width: 576px) {
+  .CardNews{
+    width: auto;
+    height: auto;
+    border-radius: 30px;
+  }
+  .img-size{
+    display: none;
+  }
+  .text-center{
+    text-align: center;
+  }
+}

@@ -1,55 +1,101 @@
 <div xmlns="http://www.w3.org/1999/html">
-  <div id="ContainerBackground">
+  <div class="" id="ContainerBackground">
     <br/>
     <div class="container" >
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-xxl-6 col-lg-12 col-md-12 col-sm-12">
           <img src="assets/img/Logo.png" id="Logo">
           <h1 class="letrasColor Ambar fw-bold">AMBAR ROJO <br/><h1 class="Studios fw-light">S  T  U  D  I  O  S</h1></h1>
           <br/>
           <h1 class="letrasColor fw-bold" id="titleLetra">{{ tittle }}</h1>
         </div>
-        <div class="col-lg-1">
-          <a class="letra-a" routerLink="/">
+        <div class="col-xxl-1 col-lg-2 col-sm-3 col-md-2">
+          <a class=" letra-a" routerLink="/">
             <h5 class="letrasColor">
               Inicio
             </h5>
           </a>
         </div>
-        <div class="col-lg-1">
-          <a class="letra-a" routerLink="/Nosotros">
+        <div class="col-xxl-1 col-lg-2 col-sm-3 col-md-2">
+          <a class=" letra-a" routerLink="/Nosotros">
             <h5 class="letrasColor">
               Nosotros
             </h5>
           </a>
         </div>
-        <div class="col-lg-1">
-          <a class="letra-a" routerLink="/Servicios">
+        <div class="col-xxl-1 col-lg-2 col-sm-3 col-md-2">
+          <a class=" letra-a"  routerLink="/Servicios">
           <h5 class="letrasColor">
             Servicios
           </h5>
          </a>
         </div>
-        <div class="col-lg-1">
-          <a class="letra-a" routerLink="/Portafolios">
+        <div class="col-xxl-1 col-lg-2 col-sm-3 col-md-2">
+          <a class=" letra-a" routerLink="/Portafolios">
           <h5 class="letrasColor">
             Portafolios
           </h5>
           </a>
         </div>
-        <div class="col-lg-1">
-          <a class="letra-a" routerLink="/Noticias">
-          <h5 class="letrasColor">
+        <div class="col-xxl-1 col-lg-2 col-sm-3 col-md-2">
+          <a class=" letra-a" routerLink="/Noticias">
+          <h5 class="letrasColor ">
             Noticias
           </h5>
           </a>
         </div>
-        <div class="col-lg-1">
-          <a class="letra-a" routerLink="/Contacto">
+        <div class="col-xxl-1 col-lg-2 col-sm-3 col-md-2">
+          <a class=" letra-a" routerLink="/Contacto">
           <h5 class="letrasColor">
             Contacto
           </h5>
           </a>
+        </div>
+        <div class="col-12" align="right">
+          <div class="dropdown dropdown-menu-bar">
+            <button class="button " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              <img class="menubar" src="assets/icons/menu_white_24dp.svg">
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" routerLink="/">
+                <p class="">
+                  Inicio
+                </p>
+              </a></li>
+              <li><a class="dropdown-item" routerLink="/Nosotros">
+                <p class="">
+                  Nosotros
+                </p>
+              </a></li>
+              <li><a class="dropdown-item"  routerLink="/Servicios">
+                <p class="">
+                  Servicios
+                </p>
+              </a></li>
+              <li>
+                <a class="dropdown-item " routerLink="/Portafolios">
+                  <p class="">
+                    Portafolios
+                  </p>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item " routerLink="/Noticias">
+                  <p class=" ">
+                    Noticias
+                  </p>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item " routerLink="/Contacto">
+                  <p class="">
+                    Contacto
+                  </p>
+                </a>
+              </li>
+            </ul>
+          </div>
+
         </div>
       </div>
     </div>
@@ -63,15 +109,15 @@
       <br/>
       <div class="container">
         <div class="row">
-          <div class="col-lg-8">
+          <div class="col-xl-8 col-md-7">
             <img id="bermuda" src="{{ img1 }}"onerror="this.style.display = 'none'">
             <img id="pablita1" src="{{ img3 }}"onerror="this.style.display = 'none'">
             <img id="pablitaC" src="{{ img6 }}"onerror="this.style.display = 'none'">
             <img id="serv" src="{{ img9 }}"onerror="this.style.display = 'none'">
             <img id="nos" src="{{ img8 }}"onerror="this.style.display = 'none'">
-          </div>
-          <div class="col-lg-4 outer">
             <img id="cherry" src="{{ img5 }}" onerror="this.style.display = 'none'">
+          </div>
+          <div class="col-xl-4 col-lg-7 col-md-7 col-sm-7 col-7 outer">
             <img id="grupo" src="{{ img2 }}" onerror="this.style.display = 'none'">
             <img id="pablita2" src="{{ img4 }}" onerror="this.style.display = 'none'">
             <img id="taxi" src="{{ img7 }}"onerror="this.style.display = 'none'">

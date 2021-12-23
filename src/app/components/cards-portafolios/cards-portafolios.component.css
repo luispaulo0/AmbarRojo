@@ -1,35 +1,17 @@
-.CardPortafolios1{
-  width: 281px;
-  height: 196px;
+.CardPortafolios{
+  width: 80%;
+  height: 210px;
   border-radius: 22px;
-  margin-left: 150px;
+
 
 }
-.CardPortafolios2{
-  width: 281px;
-  height: 196px;
-  border-radius: 22px;
-  margin-left: 70px;
-}
-.CardPortafolios3{
-  width: 281px;
-  height: 196px;
-  border-radius: 22px;
-  margin-right: 200px;
-}
-.CardPortafolios4{
-  width: 281px;
-  height: 196px;
-  border-radius: 22px;
-  margin-left: -90px;
-}
+
 .img-sizeP{
-  width: 241px;
+  width: 80%;
   height: 120px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-
   display: block;
 }
 .text-centerP{
@@ -40,7 +22,45 @@
 }
 .background-color{
     background-color: #FF3E6F;
+
 }
 .text-col{
   color: white;
 }
+@media screen and (max-width: 443px){
+  .img-sizeP{
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: block;
+  }
+  .text-centerP{
+    text-align: center;
+    font-size: 1.0rem;
+  }
+
+}
+@media screen and (max-width: 380px){
+  .img-sizeP{
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: block;
+  }
+  .text-centerP{
+    text-align: center;
+    font-size: 0.7rem;
+  }
+  .CardPortafolios{
+    width: 80%;
+    height: 180px;
+    border-radius: 22px;
+
+
+  }
+}
+

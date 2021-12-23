@@ -45,3 +45,127 @@
   height: 38px;
 }
 
+@media screen  and (max-width: 991px) {
+  .circle{
+    margin-top: 20px;
+    width: 86px;
+    height: 82px;
+    border-radius: 50%;
+    background: #FC003F;
+    align-items: center;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-right: 5px;
+  }
+
+  .container-alig{
+    align-self: center;
+  }
+  .icons{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: block;
+    width: 37px;
+    height: 38px;
+  }
+  .card{
+    width: 200px;
+    height: auto;
+    border-radius: 30px;
+  }
+  .text-center{
+    text-align: center;
+  }
+  .button{
+    margin: -20px -50px;
+    position:relative;
+    top:10%;
+    left:40%;
+    border-radius: 30px;
+    border-color: #FC003F;
+    color: white;
+    background: #FC003F;
+    width: 132px;
+    height: 38px;
+  }
+}
+@media screen and (max-width: 768px){
+  .circle{
+    margin-top: 20px;
+    width: 46px;
+    height: 42px;
+    border-radius: 50%;
+    background: #FC003F;
+    align-items: center;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-right: 5px;
+  }
+
+  .container-alig{
+    align-self: center;
+  }
+  .icons{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    display: block;
+    width: 17px;
+    height: 18px;
+  }
+  .card{
+    width: 150px;
+    height: 370PX;
+    border-radius: 30px;
+  }
+  .text-center{
+    text-align: center;
+  }
+  .button{
+    margin: -20px -50px;
+    position:relative;
+    top: 0%;
+    left:40%;
+    border-radius: 30px;
+    border-color: #FC003F;
+    color: white;
+    background: #FC003F;
+    width: 82px;
+    height: auto;
+  }
+}
+@media screen and (max-width: 576px){
+  .circle{
+    display: none;
+  }
+
+  .container-alig{
+    align-self: center;
+  }
+  .icons{
+   display: none;
+  }
+  .card{
+    width: 150px;
+    height: auto;
+    border-radius: 30px;
+  }
+  .text-center{
+    text-align: center;
+  }
+  .button{
+    margin: -20px -50px;
+    position:relative;
+    top: 0%;
+    left:40%;
+    border-radius: 30px;
+    border-color: #FC003F;
+    color: white;
+    background: #FC003F;
+    width: 82px;
+    height: auto;
+  }
+}

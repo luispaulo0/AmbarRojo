@@ -1,11 +1,101 @@
 .cardColor{
-  background-color: #FC003F;
-  color: white;
+  background-color: white;
+  color: #FC003F;
   border-radius: 30px;
-  width: 391px;
+  width: 70%;
   height: 350px;
 }
 .a-color{
-  color: white;
+  color: #FC003F;
 
+}
+@media screen and (max-width: 1400px) {
+  .a-color{
+    color: #FC003F;
+    font-size: 1.0rem;
+  }
+}
+@media screen and (max-width: 992px){
+  .cardColor{
+    background-color: white;
+    color: #FC003F;
+    border-radius: 30px;
+    width: 80%;
+    height: 350px;
+  }
+  .a-color{
+    color: #FC003F;
+    font-size: .8rem;
+  }
+}
+@media screen and (max-width: 768px){
+  .cardColor{
+    background-color: white;
+    color: #FC003F;
+    border-radius: 30px;
+    width: 80%;
+    height: 350px;
+  }
+  .a-color{
+    color: #FC003F;
+    font-size: .7rem;
+  }
+}
+@media screen and (max-width: 505px){
+  .cardColor{
+    background-color: white;
+    color: #FC003F;
+    border-radius: 30px;
+    width: 90%;
+    height: 350px;
+  }
+  .a-color{
+    color: #FC003F;
+    font-size: .7rem;
+  }
+}
+@media screen and (max-width: 454px){
+  .cardColor{
+    background-color: white;
+    color: #FC003F;
+    border-radius: 30px;
+    width: 100%;
+    height: 350px;
+  }
+  .a-color{
+    color: #FC003F;
+    font-size: .7rem;
+  }
+}
+@media screen and (max-width: 410px){
+  .cardColor{
+    background-color: white;
+    color: #FC003F;
+    border-radius: 30px;
+    width: 100%;
+    height: 350px;
+  }
+  .a-color{
+    color: #FC003F;
+    font-size: .7rem;
+  }
+  .h5{
+    font-size: 1.0rem;
+  }
+}
+@media screen and (max-width: 352px){
+  .cardColor{
+    background-color: white;
+    color: #FC003F;
+    border-radius: 30px;
+    width: 100%;
+    height: 350px;
+  }
+  .a-color{
+    color: #FC003F;
+    font-size: .6rem;
+  }
+  .h5{
+    font-size: .9rem;
+  }
 }

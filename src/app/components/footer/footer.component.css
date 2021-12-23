@@ -1,5 +1,6 @@
 .recuadro1{
   background-color: #E3E3E3;
+  width: 100%;
 }
 .circleMail{
   margin-top: 20px;
@@ -24,7 +25,7 @@
 .recuadro2{
   background-color: #900024;
   color: white;
-
+  width: 100%;
 }
 .iconTweet{
   width: 20px;
@@ -39,9 +40,16 @@
 }
 .Recuadro3{
   background-color: #540115;
+  width: 100%;
 }
 .p-color{
   color: #C80020;
 
-  margin-left: 200px;
+}
+
+.iconsF{
+  width: 5%;
+  height: auto;
+  margin-left: 10px;
+
 }
