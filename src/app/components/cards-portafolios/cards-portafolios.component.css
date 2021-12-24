@@ -27,39 +27,12 @@
 .text-col{
   color: white;
 }
-@media screen and (max-width: 443px){
-  .img-sizeP{
-    width: 50%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    display: block;
-  }
-  .text-centerP{
-    text-align: center;
-    font-size: 1.0rem;
-  }
-
-}
-@media screen and (max-width: 380px){
-  .img-sizeP{
-    width: 50%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    display: block;
-  }
-  .text-centerP{
-    text-align: center;
-    font-size: 0.7rem;
-  }
+@media screen and (max-width: 576px){
   .CardPortafolios{
-    width: 80%;
-    height: 180px;
+    width: 60%;
+    height: 210px;
     border-radius: 22px;
-
+    margin: auto auto auto auto;
 
   }
 }
