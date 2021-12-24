@@ -25,6 +25,7 @@
   .p{
     font-size: 1.4rem;
     margin-bottom: 8rem;
+    text-align: justify;
   }
 @media screen and (max-width: 1200px) {
   .h1left{

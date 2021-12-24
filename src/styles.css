@@ -1,3 +1,8 @@
 .background-colordf{
   background-color: #F5F5F5;
 }
+.tAlign{
+  text-align: justify;
+  word-spacing: -1.4px;
+  font-family: "Segoe UI";
+}

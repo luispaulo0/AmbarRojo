@@ -15,6 +15,16 @@
 .text-center{
   text-align: center;
 }
+.tAlign2{
+  text-align: justify;
+  word-spacing: -3.2px;
+  font-family: "Segoe UI";
+}
+.tAlign3{
+  text-align: justify;
+  word-spacing: -3.5px;
+  font-family: "Segoe UI";
+}
 @media screen and (max-width: 1200px) {
   .CardNews{
     width: 220px;
